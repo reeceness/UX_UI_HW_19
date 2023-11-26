@@ -83,7 +83,7 @@ main {
 }
 
 .intro {
-    display: inline-flexbox;
+    display: flexbox;
     margin-top: 200px;
     width: 583px;
     padding-left: 85px;
