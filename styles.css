@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Altone;
+    src: url(../Altone-2/Open_Type-TT/Altone-Regular.ttf); 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Altone;
+    src: url(../Altone-2/Open\ Type-TT/Altone-Bold.ttf); 
+    font-weight: bold;
+}
+
+* {
+    font-family: Altone;
+    color: white;
+    padding: 0;
+}
+
+.nav {
+    display: flex; 
+    width: 100%;
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 50px;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.navbutton a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+}
+
+
+
+#footer {
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    padding-left: 85px;
+    
+    
+}
+.footerli {
+    display: inline-flex;
+    width: 374px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    
+}
+.logosm {
+    scale: 75%;
+    
+    display: flexbox;
+    flex-shrink: 0;
+}
+
+.logo {
+    float: left;
+    padding-left: 85px;
+    width: 72px;
+    height: 72px;
+    padding-top: 25px;
+    scale: 75%;
+}
+
+.body {
+    background-color: #030618;
+    width: 100%;
+    background-image: url(../images/Subject\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbutton {
+    font-family: Altone;
+    font-weight: bold;
+    letter-spacing: 3.2px;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.intro {
+    display: inline-flexbox;
+    margin-top: 200px;
+    width: 583px;
+    padding-left: 85px;
+}
+
+.header {
+    color: #FFFEF3;
+    font-family: Altone;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 144px */
+    letter-spacing: 6.4px;
+
+}
+
+.Designer {
+    color: #E8BDDE;
+    font-family: Altone;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 3.6px;
+}
+
+.Photographer {
+    color: var(--portfolio-colors-mauve-light, #CFA8C7);
+    font-family: Altone;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 3.6px;
+}
+
+.Coffee {
+    color: var(--portfolio-colors-mauve-light, #CFA8C7);
+    font-family: Altone;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 3.6px;
+}
+
